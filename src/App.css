@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.crypto__tracker {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #282828;
+}
+.crypto__searchHeading {
   color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.crypto__search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 60%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.crypto__searchBar {
+  padding: 15px;
+  margin-top: 10px;
+  width: 40%;
+  border: none;
+  background-color: #ebebed;
+  border-radius: 3px;
+  outline: none;
+}
+
+.crypto__searchBar::placeholder {
+  color: #8a898d;
+}
+
+.crypto__container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #282828;
 }
