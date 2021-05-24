@@ -2,7 +2,7 @@
 
 This is a serverless Crypto-Currency tracker that lets you search and save crypto coins using live Crypto API.
 
-## Available Scripts
+## HOSTED URL
 
 Open [https://danish061296.github.io/Crypto-Tracker/](https://danish061296.github.io/Crypto-Tracker/) to view it in the browser.
 
